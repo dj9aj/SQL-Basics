@@ -34,3 +34,15 @@ To create a new user (postgresql calls this a "role") -
 ```
 CREATE ROLE username WITH LOGIN PASSWORD 'quoted password' [OPTIONS]
 ```
+
+Add `CREATEDB` permission to a user, to allow them to create databases - 
+
+```
+ALTER ROLE username CREATEDB
+```
+
+To exit the `psql` command line -
+
+```
+\q
+```
