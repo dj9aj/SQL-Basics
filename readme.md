@@ -28,3 +28,15 @@ To see what users are installed in postgresql-
 ```
 postgres=# \du
 ```
+
+To create a new user (postgresql calls this a "role") - 
+
+```
+CREATE ROLE username WITH LOGIN PASSWORD 'quoted password' [OPTIONS]
+```
+
+To display list of users - 
+
+```
+\du
+```
