@@ -1,8 +1,9 @@
 # SQL Basics
 
-## Basic Commands
+
 
 ### From the command line
+
 
 To install postgresql via Homebrew - 
 
